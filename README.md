@@ -21,6 +21,14 @@ with DVF with a working example.
 * Add a center lat/lng that aligns with your GeoJSON data
 * Save and view, you should see a map that looks something like [this](https://github.com/ebrelsford/geojson-examples/blob/master/brooklyn_new.geojson)
 
+### Settings example (source)
+
+![Settings](screenshots/settings.png)
+
+### Output example (style)
+
+![Map](screenshots/map.png)
+
 ## Author
 
 [Jeremy Graham](https://github.com/jez500) from [Doghouse Agency](https://doghouse.agency/)
