@@ -33,5 +33,5 @@ with DVF with a working example.
 
 [Jeremy Graham](https://github.com/jez500) from [Doghouse Agency](https://doghouse.agency/)
 
-Sponsored by [govCSM](https://github.com/jez500)
+Sponsored by [govCMS](https://www.govcms.gov.au/)
 
