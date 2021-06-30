@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * CKAN Data Visualisation module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\dvf\Plugin\VisualisationInterface;
+
+/**
+ * Implements hook_help().
+ */
+function dvf_geojson_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.dvf_ckan':
+      $output = '<p>' . t('The <a href=":dvf_geojson">GeoJSON Data Visualisation</a> module integrates with the Data Visualisation Framework module providing GeoJSON support.', [':dvf_ckan_url' => 'https://www.drupal.org/project/dvf_geojson']) . '</p>';
+      return $output;
+  }
+}

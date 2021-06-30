@@ -1,0 +1,22 @@
+leaflet:
+  remote: https://github.com/Leaflet/Leaflet
+  version: "1.7.1"
+  license:
+    name: BSD-3
+    url: https://github.com/Leaflet/Leaflet/blob/master/LICENSE
+    gpl-compatible: true
+  js:
+    'https://unpkg.com/leaflet@1.7.1/dist/leaflet.js': { type: external, minified: true }
+  css:
+    component:
+      'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css': { type: external, minified: true }
+
+dvfGeoJSON:
+  version: "1.0.0"
+  js:
+    js/dvfGeoJSON.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - dvf_geojson/leaflet
